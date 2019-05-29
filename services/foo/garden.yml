@@ -1,0 +1,15 @@
+module:
+  description: test module
+  name: foo
+  type: container
+  include:
+  - index.js
+  services:
+  - name: foo
+    ports:
+    - name: http
+      containerPort: 4000
+    ingresses:
+    - path: /foo
+      port: http
+

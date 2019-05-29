@@ -1,0 +1,20 @@
+
+[2019-05-29T13:54:10.885Z] TypeError: Cannot read property 'split' of undefined
+    at GitHandler.<anonymous> (/Users/Shared/git/garden/garden-service/build/vcs/git.js:113:45)
+    at Generator.next (<anonymous>)
+    at /Users/Shared/git/garden/garden-service/build/vcs/git.js:14:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/Shared/git/garden/garden-service/build/vcs/git.js:10:12)
+    at Bluebird.map (/Users/Shared/git/garden/garden-service/build/vcs/git.js:101:63)
+    at tryCatcher (/Users/Shared/git/garden/garden-service/node_modules/bluebird/js/release/util.js:16:23)
+    at MappingPromiseArray._promiseFulfilled (/Users/Shared/git/garden/garden-service/node_modules/bluebird/js/release/map.js:61:38)
+    at MappingPromiseArray.PromiseArray._iterate (/Users/Shared/git/garden/garden-service/node_modules/bluebird/js/release/promise_array.js:114:31)
+    at MappingPromiseArray.init (/Users/Shared/git/garden/garden-service/node_modules/bluebird/js/release/promise_array.js:78:10)
+    at MappingPromiseArray._asyncInit (/Users/Shared/git/garden/garden-service/node_modules/bluebird/js/release/map.js:30:10)
+    at _drainQueueStep (/Users/Shared/git/garden/garden-service/node_modules/bluebird/js/release/async.js:142:12)
+    at _drainQueue (/Users/Shared/git/garden/garden-service/node_modules/bluebird/js/release/async.js:131:9)
+    at Async._drainQueues (/Users/Shared/git/garden/garden-service/node_modules/bluebird/js/release/async.js:147:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (/Users/Shared/git/garden/garden-service/node_modules/bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:789:20)
+    at tryOnImmediate (timers.js:751:5)
+    at processImmediate [as _immediateCallback] (timers.js:722:5)
